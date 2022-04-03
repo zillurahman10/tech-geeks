@@ -1,0 +1,23 @@
+.image {
+    width: 380px;
+    height: 280px;
+    border: 3px solid white;
+    box-shadow: 1px 1px 20px;
+    margin-right: 60px;
+    margin-left: 223px;
+}
+
+.text {
+    margin-right: 225px;
+}
+
+.blog {
+    margin-top: 104px;
+    margin-bottom: 71px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
