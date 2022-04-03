@@ -11,3 +11,14 @@
     display: flex;
     justify-content: center;
 }
+
+.blog {
+    margin-top: 56px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 128px;
+}
+
+.back {
+    float: left;
+}

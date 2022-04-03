@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './BlogDetails.css'
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 const BlogDetails = () => {
 
@@ -18,10 +18,11 @@ const BlogDetails = () => {
 
     return (
         <div className='d-flex justify-content-center flex-wrap'>
+            <Link to="/" className='back'>Back</Link>
             <img className='image shadow-sm ms-5' src={imageURL} alt="" />
-            <div className='lekha'>
+            <div className='lekha d-flex justify-content-center flex-wrap'>
                 <h2>{title}</h2>
-                <p>{blog}</p>
+                <p className='blog'>{blog}</p>
             </div>
         </div>
     );
