@@ -1,0 +1,13 @@
+.image {
+    width: 475px;
+    height: 475px;
+}
+
+.lekha h2 {
+    margin-top: 70.5px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
